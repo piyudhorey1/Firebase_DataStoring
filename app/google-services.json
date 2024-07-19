@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "803770995900",
+    "project_id": "gicassignment",
+    "storage_bucket": "gicassignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803770995900:android:2c0d4962eb2ac30fd02cb9",
+        "android_client_info": {
+          "package_name": "com.example.gic_assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUg0v7xHMeRdd_k7E3Tkr7rRoLzcdm2OA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
