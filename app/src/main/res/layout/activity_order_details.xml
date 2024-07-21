@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/shipping_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/delivery_date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="4dp" />
+
+    <TextView
+        android:id="@+id/products_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingTop="4dp" />
+
+    <EditText
+        android:id="@+id/rejection_reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter reason for rejection (if any)"
+        android:visibility="gone"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/accept_order_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept Order"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/reject_order_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reject Order"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

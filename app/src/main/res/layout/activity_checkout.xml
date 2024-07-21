@@ -1,0 +1,108 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/TextCheckout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkout"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/futura_heavy"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:id="@+id/shipping_address"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintTop_toBottomOf="@id/TextCheckout"
+        android:layout_marginHorizontal="16dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="start|top"
+        android:paddingTop="12dp"
+        android:fontFamily="@font/futura_medium"
+        android:textColor="@color/black"
+        android:background="@drawable/background_edittext_corner_black_22"
+        android:hint="@string/shipping_address"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/contact_number"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/contact_number"
+        android:layout_marginHorizontal="16dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/futura_medium"
+        android:textColor="@color/black"
+        android:background="@drawable/background_edittext_corner_black_22"
+        app:layout_constraintTop_toBottomOf="@id/shipping_address"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/delivery_date"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/delivery_date_yyyy_mm_dd"
+        android:layout_marginHorizontal="16dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/futura_medium"
+        android:textColor="@color/black"
+        android:background="@drawable/background_edittext_corner_black_22"
+        app:layout_constraintTop_toBottomOf="@id/contact_number"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/delivery_time"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/delivery_time_hh_mm"
+        android:layout_marginHorizontal="16dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/futura_medium"
+        android:textColor="@color/black"
+        android:background="@drawable/background_edittext_corner_black_22"
+        app:layout_constraintTop_toBottomOf="@id/delivery_date"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/defualt_address"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="16dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="start|top"
+        android:paddingTop="12dp"
+        android:fontFamily="@font/futura_medium"
+        android:textColor="@color/black"
+        android:background="@drawable/background_edittext_corner_black_22"
+        app:layout_constraintTop_toBottomOf="@id/delivery_time"
+        android:hint="Default Address"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit_order_btn"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/background_corner_orange_12"
+        android:text="@string/submit_order"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="861dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

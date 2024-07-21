@@ -16,4 +16,25 @@
     <string name="verify_otp">Verify OTP</string>
     <string name="enter_otp">Enter OTP</string>
     <string name="otp_verification">Otp Verification</string>
+    <string name="orders">Orders</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_product">Add New Product</string>
+    <string name="product_name">Product Name</string>
+    <string name="description">Description</string>
+    <string name="rate">Rate</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_product">Add Product</string>
+    <string name="products">Products</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="cart">Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="total">Total:</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="delivery_date_yyyy_mm_dd">Delivery Date (YYYY-MM-DD)</string>
+    <string name="delivery_time_hh_mm">Delivery Time (HH:MM)</string>
+    <string name="submit_order">Submit Order</string>
+    <string name="empty_cart">Empty Cart</string>
+    <string name="msg_token_fmt">FCM Token: %1$s</string>
 </resources>
